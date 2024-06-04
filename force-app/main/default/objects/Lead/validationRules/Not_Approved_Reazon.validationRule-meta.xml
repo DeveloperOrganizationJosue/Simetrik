@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Approved_Reazon</fullName>
+    <active>true</active>
+    <description>validates that a cause has been registered to move the lead to an unapproved status</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status,&quot;Not approved&quot;),
+ISBLANK(TEXT(   Rejection_cause__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Rejection_cause__c</errorDisplayField>
+    <errorMessage>A non-approval cause must be registered to move a lead to this status</errorMessage>
+</ValidationRule>

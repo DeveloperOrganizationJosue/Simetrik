@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>position</fullName>
+    <description>This is the lead position in the company he/she is part of</description>
+    <label>Position in company</label>
+</FieldSet>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Case__c</fullName>
+    <externalId>false</externalId>
+    <label>Use Case</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bank vs Accounting</fullName>
+                <color>#FFCC66</color>
+                <default>false</default>
+                <label>Bank vs Accounting</label>
+            </value>
+            <value>
+                <fullName>ERP vs OS</fullName>
+                <color>#FFCC66</color>
+                <default>false</default>
+                <label>ERP vs OS</label>
+            </value>
+            <value>
+                <fullName>EUCs</fullName>
+                <color>#FFCC66</color>
+                <default>false</default>
+                <label>EUCs</label>
+            </value>
+            <value>
+                <fullName>Dispersals</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>Dispersals</label>
+            </value>
+            <value>
+                <fullName>Transaction Cost Control</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Transaction Cost Control</label>
+            </value>
+            <value>
+                <fullName>Debt Control Insurance Broker</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Debt Control Insurance Broker</label>
+            </value>
+            <value>
+                <fullName>Multiple Payment Methods</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Multiple Payment Methods</label>
+            </value>
+            <value>
+                <fullName>Account Classification</fullName>
+                <color>#FFCC66</color>
+                <default>false</default>
+                <label>Account Classification</label>
+            </value>
+            <value>
+                <fullName>Network Acquirer Reconciliation</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Network Acquirer Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Bank Reconciliation</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Bank Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>Costs Control</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>Costs Control</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <color>#DDDDDD</color>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Accounting Translator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accounting Translator</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Cash Network</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cash Network</label>
+            </value>
+            <value>
+                <fullName>Cash Networks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cash Networks</label>
+            </value>
+            <value>
+                <fullName>Chargebacks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chargebacks</label>
+            </value>
+            <value>
+                <fullName>Consignment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consignment</label>
+            </value>
+            <value>
+                <fullName>Other Wallets</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Wallets</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>White Label Recon Report</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>White Label Recon Report</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Money-Out</controllingFieldValue>
+            <valueName>Dispersals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-Out</controllingFieldValue>
+            <valueName>Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-Out</controllingFieldValue>
+            <valueName>Costs Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>Bank vs Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>ERP vs OS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>EUCs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>Account Classification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-In</controllingFieldValue>
+            <valueName>Transaction Cost Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-In</controllingFieldValue>
+            <valueName>Debt Control Insurance Broker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-In</controllingFieldValue>
+            <valueName>Multiple Payment Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-In</controllingFieldValue>
+            <valueName>Network Acquirer Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-In</controllingFieldValue>
+            <valueName>Bank Reconciliation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

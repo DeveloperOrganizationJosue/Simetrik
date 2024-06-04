@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filtro_partner__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Partner_Accounts__r.Name =  $User.Account_Name__c || $User.Dominio_Usuario__c = &quot;clouderconsulting.com&quot; || $User.Dominio_Usuario__c = &quot;simetrik.com&quot;, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Filtro partner</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

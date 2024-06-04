@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_is_over</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Status, &quot;Not approved&quot;)),
+ISPICKVAL(PRIORVALUE(Status), &quot;Not approved&quot;),
+ISPICKVAL(Status, &quot;Validation&quot;)
+)</errorConditionFormula>
+    <errorMessage>You can&apos;t convert the lead, because it is already rejected</errorMessage>
+</ValidationRule>

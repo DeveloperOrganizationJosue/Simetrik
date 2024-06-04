@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>josue.blandon@intellectsystem.net</contactEmail>
+    <iconUrl>https://test.salesforce.com/logos/Salesforce/SalesforcePlatform/icon.png</iconUrl>
+    <label>DevOps</label>
+    <logoUrl>https://test.salesforce.com/logos/Salesforce/SalesforcePlatform/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDtzCCAp8CFGwSWtnPAtZV0qpraHmLm8pOILUCMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJFQzEOMAwGA1UECAwFUXVpdG8xDjAMBgNVBAcMBVF1aXRvMRowGAYDVQQKDBFJbnRlbGxlY3QgU3lzdGVtczELMAkGA1UECwwCSVMxDTALBgNVBAMMBEZpc2ExMDAuBgkqhkiG9w0BCQEWIWpvc3VlLmJsYW5kb25AaW50ZWxsZWN0c3lzdGVtLm5ldDAeFw0yNDA1MTQxNDQ4MzlaFw0yNTA1MTQxNDQ4MzlaMIGXMQswCQYDVQQGEwJFQzEOMAwGA1UECAwFUXVpdG8xDjAMBgNVBAcMBVF1aXRvMRowGAYDVQQKDBFJbnRlbGxlY3QgU3lzdGVtczELMAkGA1UECwwCSVMxDTALBgNVBAMMBEZpc2ExMDAuBgkqhkiG9w0BCQEWIWpvc3VlLmJsYW5kb25AaW50ZWxsZWN0c3lzdGVtLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKYRsPIpPk4DPzk9fIM2IzfI2nrxfwrzv4J7KG52NXDGHJWh1unDZD4psQtxHYG7NMaXDsCDZbbV/dPipna1xmKKACt1qszCuWLGSd1MZkShFUvCkqkzlLvpU12D/4dYUKQSOpc7ADuP3SCAwVlQTn4WYdn+6doMvpaSiwuErH9BIRj9LFwQ9qm/CMJFTbTm2VXrW2vGE1xpnNin6leB1x9jcOZj2rK0mQAIijQZHXhAN92h/7LM5IpFxq4fLe2tAKM8YQ4yIdxtgt7bJxGKj1D77Tm7DhhLc2z+WCPZ5LC4XOlt5oY5cFPJkrVzmLxnPi2sJfs59tDZhoQtdolEHYcCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAQi7IrUsb0z3LS0FQSa15bZQ+C7SztxmZi5RN+oAHfIUBM76ZazT4ukZc9XBtpvkY+NdIlidAZ34m+nnP1X1ZI52UuCTy2lEDScTHhkO9KzK82tSXPZ3IL16w7R8v99W34qHloWyqGRGmReNQxlUvcjYo9poG9LohpAljcR8lTBJ2tIhYdt76KnhN14E6tvLDDIoaRB328BJLwWE0MgqGAgO3MfqAUzp777vWSOSo+UAylz+KVtNlSTOrdHofdsiCcqn/d8wxpCrwQstDjxHXYqXLGPcw0s8N9qMfSTJ4NApoX/Az08DxNHDS/Ezp+6DMEJmLu2cjrB7kXfn74NFtZQ==</certificate>
+        <consumerKey>3MVG9vtcvGoeH2bg3_yzS8f_L.XiU6LlXNVhDRx3RmThf02RlbLQqvOokXEXxRZpjl4AZWhmbAL.4veXb9Z52</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>DevOps</permissionSetName>
+    <profileName>System Administrator</profileName>
+    <sessionPolicy>
+        <sessionTimeout>15</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

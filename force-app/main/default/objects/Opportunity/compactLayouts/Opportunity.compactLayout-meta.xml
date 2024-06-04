@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>OwnerId</fields>
+    <fields>Type</fields>
+    <fields>ACV__c</fields>
+    <fields>ForecastCategoryName</fields>
+    <fields>CloseDate</fields>
+    <fields>LeadSource</fields>
+    <label>Opportunity</label>
+</CompactLayout>

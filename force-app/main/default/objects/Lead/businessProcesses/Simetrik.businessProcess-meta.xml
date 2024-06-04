@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simetrik</fullName>
+    <description>Process to manage leads created directly by Simetrik AE</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Converted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Disqualified%2FDelete</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Inbound</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Inbound Follow Up</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initial Qualification</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Open</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Prospecting</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Rejected%2FNurture</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

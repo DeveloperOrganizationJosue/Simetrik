@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primary Market</fullName>
+                <default>false</default>
+                <label>Primary Market</label>
+            </value>
+            <value>
+                <fullName>High Potential</fullName>
+                <default>false</default>
+                <label>High Potential</label>
+            </value>
+            <value>
+                <fullName>Secondary Market</fullName>
+                <default>false</default>
+                <label>Secondary Market</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

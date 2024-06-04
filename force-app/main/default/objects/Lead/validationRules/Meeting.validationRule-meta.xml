@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting</fullName>
+    <active>true</active>
+    <description>Validates that at least one meeting of the discovery type has been registered</description>
+    <errorConditionFormula>AND( ISPICKVAL( Status , &quot;Revision&quot;) ,   
+     OR( ISNULL( Dismeet__c ),  Dismeet__c = 0))</errorConditionFormula>
+    <errorMessage>You must register at least one meeting of type Discovery to pass the Lead to Meeting status</errorMessage>
+</ValidationRule>

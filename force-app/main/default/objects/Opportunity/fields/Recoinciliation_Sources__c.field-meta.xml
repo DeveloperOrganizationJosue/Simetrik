@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recoinciliation_Sources__c</fullName>
+    <description>What are the sources of information that the client needs to configure their reconciliations? (Fuentes)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What are the sources of information that the client needs to configure their reconciliations? (Fuentes)</inlineHelpText>
+    <label>Reconciliation Sources</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

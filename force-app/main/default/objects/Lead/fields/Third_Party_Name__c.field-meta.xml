@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Third Party Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVA Involved</fullName>
+                <default>false</default>
+                <label>IVA Involved</label>
+            </value>
+            <value>
+                <fullName>PaymentsDays_ARG_2022</fullName>
+                <default>false</default>
+                <label>PaymentsDays_ARG_2022</label>
+            </value>
+            <value>
+                <fullName>Crosstechpayment_BR_2022</fullName>
+                <default>false</default>
+                <label>Crosstechpayment_BR_2022</label>
+            </value>
+            <value>
+                <fullName>Camp_CO_2022</fullName>
+                <default>false</default>
+                <label>Camp_CO_2022</label>
+            </value>
+            <value>
+                <fullName>FintechAmericas_MI_2022</fullName>
+                <default>false</default>
+                <label>FintechAmericas_MI_2022</label>
+            </value>
+            <value>
+                <fullName>FintechForum_CH_2022</fullName>
+                <default>false</default>
+                <label>FintechForum_CH_2022</label>
+            </value>
+            <value>
+                <fullName>ColombiaFintech_CO_2022</fullName>
+                <default>false</default>
+                <label>ColombiaFintech_CO_2022</label>
+            </value>
+            <value>
+                <fullName>ChileFintechForum_CH_2022</fullName>
+                <default>false</default>
+                <label>ChileFintechForum_CH_2022</label>
+            </value>
+            <value>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+                <label>Email Marketing</label>
+            </value>
+            <value>
+                <fullName>AE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AE</label>
+            </value>
+            <value>
+                <fullName>BDR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BDR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

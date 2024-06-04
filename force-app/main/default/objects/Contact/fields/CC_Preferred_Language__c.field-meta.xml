@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Preferred_Language__c</fullName>
+    <description>Custom field to select the contact preferred language. If the contact is created from lead conversion, this field is mapped from lead information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Contact&apos;s preferred language for marketing communications.</inlineHelpText>
+    <label>Preferred Language</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Preferred_Language</valueSetName>
+    </valueSet>
+</CustomField>

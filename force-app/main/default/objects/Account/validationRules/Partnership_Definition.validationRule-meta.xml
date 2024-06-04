@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership_Definition</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+(TEXT ( Account_Status__c) = &quot;Redlining&quot;),
+OR(
+ISBLANK(TEXT( Partner_Type__c )),
+NOT( Business_case_approved__c )
+)
+)</errorConditionFormula>
+    <errorMessage>You must complete the fields (Partner Type) and (Business case approved)</errorMessage>
+</ValidationRule>

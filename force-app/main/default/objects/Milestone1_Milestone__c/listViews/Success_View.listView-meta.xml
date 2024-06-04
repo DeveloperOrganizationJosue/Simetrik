@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Success_View</fullName>
+    <columns>Project__c</columns>
+    <columns>NAME</columns>
+    <columns>Stage__c</columns>
+    <columns>Release__c</columns>
+    <columns>Scope_adopt__c</columns>
+    <columns>Total_Open_Tasks__c</columns>
+    <columns>Use_Case_Type__c</columns>
+    <columns>Category__c</columns>
+    <columns>Global_status_use_case__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Success View</label>
+</ListView>

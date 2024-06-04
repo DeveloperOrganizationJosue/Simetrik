@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contactos_CX_NPS_Sin_Sponsor</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contact_Role__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+        <value>Clip,Coltanques,Mercado Libre,Toyota de Colombia,La Universidad Tecnologica Latinoamericana en Linea{UTEL},Sodimac</value>
+    </filters>
+    <filters>
+        <field>NPS_required__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Contact_Role__c</field>
+        <operation>notEqual</operation>
+        <value>Functional Decision Maker,Technical Decision Maker,Economic Decision Maker,Executive Sponsor</value>
+    </filters>
+    <label>Contactos CX - NPS - Sin Sponsor</label>
+</ListView>

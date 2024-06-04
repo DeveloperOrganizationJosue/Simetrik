@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presales_Open_Cases__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Campo de control para indicar la cantidad de casos de uso pendientes de atención por parte de preventa</inlineHelpText>
+    <label>Presales Open Cases</label>
+    <summaryFilterItems>
+        <field>Use_Case__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Use_Case__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

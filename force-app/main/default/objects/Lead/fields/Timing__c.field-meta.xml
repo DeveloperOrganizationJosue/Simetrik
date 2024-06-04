@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timing__c</fullName>
+    <description>When do they expect to have a fully automated reconciliation process?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When do they expect to have a fully automated reconciliation process?</inlineHelpText>
+    <label>Timing</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

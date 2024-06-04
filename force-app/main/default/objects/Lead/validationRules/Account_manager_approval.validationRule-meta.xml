@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_manager_approval</fullName>
+    <active>false</active>
+    <description>Validates that there is approval from the account manager to convert the lead into an opportunity</description>
+    <errorConditionFormula>AND( ISPICKVAL(  Status , &quot;Qualified&quot;),
+     OR( NOT( AllowConversion__c ), 
+         Vendor_validation__c  =  FALSE))</errorConditionFormula>
+    <errorDisplayField>Vendor_validation__c</errorDisplayField>
+    <errorMessage>There must be approval from the account manager to convert the lead into an opportunity</errorMessage>
+</ValidationRule>

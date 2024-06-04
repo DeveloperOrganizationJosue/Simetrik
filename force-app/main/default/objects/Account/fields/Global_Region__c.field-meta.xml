@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Region__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Country__c, &apos;Antigua and Barbuda&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Aruba&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Belize&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Colombia&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Costa Rica&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Dominican Republic&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Ecuador&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;El Salvador&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;French Guiana&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Guatemala&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Guyana&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Honduras&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Jamaica&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Mexico&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Nicaragua&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Panama&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Puerto Rico&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Suriname&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Trinidad and Tobago&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Venezuela&apos;), &apos;NOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Argentina&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Bolivia&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Chile&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Paraguay&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Peru&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Uruguay&apos;), &apos;SOLA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Brazil&apos;), &apos;BRA&apos;,
+IF( ISPICKVAL(Country__c, &apos;United States&apos;), &apos;NA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Canada&apos;), &apos;NA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Afghanistan&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Australia&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Bangladesh&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;India&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Indonesia&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Israel&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Japan&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Kuwait&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Singapore&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;South Korea&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;Taiwan&apos;), &apos;APAC&apos;,
+IF( ISPICKVAL(Country__c, &apos;France&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Germany&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Italy&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Netherlands&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Nigeria&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Portugal&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Romania&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Scotland&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Spain&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Turkey&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;Uganda&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;United Kingdom&apos;), &apos;EMEA&apos;,
+IF( ISPICKVAL(Country__c, &apos;United Arab Emirates&apos;), &apos;EMEA&apos;,
+TEXT(Country__c)
+)))))))))))))))))))))))))))))))))))))))))))))))))))))</formula>
+    <label>Global Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

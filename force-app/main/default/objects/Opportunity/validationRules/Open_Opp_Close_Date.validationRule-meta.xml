@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Opp_Close_Date</fullName>
+    <active>true</active>
+    <description>Open opportunities cannot have close dates in the past</description>
+    <errorConditionFormula>AND(
+    CloseDate &lt; TODAY(),
+    NOT(ISPICKVAL(StageName, &quot;Won&quot;)),
+    NOT(ISPICKVAL(StageName, &quot;Lost&quot;)),
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;
+)</errorConditionFormula>
+    <errorMessage>Please update your close date to a date that is not in the past</errorMessage>
+</ValidationRule>

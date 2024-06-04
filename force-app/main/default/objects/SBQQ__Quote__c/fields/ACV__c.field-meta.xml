@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACV__c</fullName>
+    <description>The sum of the price after discounts, of the first 12 months (or less) of the &quot;subscription&quot; family of the Order Form.</description>
+    <externalId>false</externalId>
+    <label>ACV</label>
+    <summarizedField>SBQQ__QuoteLine__c.SBQQ__NetTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Family__c</field>
+        <operation>equals</operation>
+        <value>Subscription</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__SegmentIndex__c</field>
+        <operation>lessThan</operation>
+        <value>13</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

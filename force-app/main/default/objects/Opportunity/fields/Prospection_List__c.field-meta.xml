@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospection_List__c</fullName>
+    <externalId>false</externalId>
+    <label>Prospection List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EMIS list</fullName>
+                <default>false</default>
+                <label>EMIS list</label>
+            </value>
+            <value>
+                <fullName>Crunchbase list</fullName>
+                <default>false</default>
+                <label>Crunchbase list</label>
+            </value>
+            <value>
+                <fullName>Referral list</fullName>
+                <default>false</default>
+                <label>Referral list</label>
+            </value>
+            <value>
+                <fullName>Sales list</fullName>
+                <default>false</default>
+                <label>Sales list</label>
+            </value>
+            <value>
+                <fullName>Web/Demo</fullName>
+                <default>false</default>
+                <label>Web/Demo</label>
+            </value>
+            <value>
+                <fullName>Inverstor</fullName>
+                <default>false</default>
+                <label>Inverstor</label>
+            </value>
+            <value>
+                <fullName>Third Parties</fullName>
+                <default>false</default>
+                <label>Third Parties</label>
+            </value>
+            <value>
+                <fullName>LinkedIn List</fullName>
+                <default>false</default>
+                <label>LinkedIn List</label>
+            </value>
+            <value>
+                <fullName>LATAM TAM 2022</fullName>
+                <default>false</default>
+                <label>LATAM TAM 2022</label>
+            </value>
+            <value>
+                <fullName>CA BD Andres Fehrmann</fullName>
+                <default>false</default>
+                <label>CA BD Andres Fehrmann</label>
+            </value>
+            <value>
+                <fullName>CR BD Andres Fehrmann</fullName>
+                <default>false</default>
+                <label>CR BD Andres Fehrmann</label>
+            </value>
+            <value>
+                <fullName>BR Crunchbase List</fullName>
+                <default>false</default>
+                <label>BR Crunchbase List</label>
+            </value>
+            <value>
+                <fullName>CHL Fintech Forum</fullName>
+                <default>false</default>
+                <label>CHL Fintech Forum</label>
+            </value>
+            <value>
+                <fullName>ARG Fintech Forum</fullName>
+                <default>false</default>
+                <label>ARG Fintech Forum</label>
+            </value>
+            <value>
+                <fullName>MX Crunchbase List</fullName>
+                <default>false</default>
+                <label>MX Crunchbase List</label>
+            </value>
+            <value>
+                <fullName>CO Colombia Fintech</fullName>
+                <default>false</default>
+                <label>CO Colombia Fintech</label>
+            </value>
+            <value>
+                <fullName>CO Asobancaria</fullName>
+                <default>false</default>
+                <label>CO Asobancaria</label>
+            </value>
+            <value>
+                <fullName>CO Camara de Comercio</fullName>
+                <default>false</default>
+                <label>CO Camara de Comercio</label>
+            </value>
+            <value>
+                <fullName>LATAM Fintech Forum Channel</fullName>
+                <default>false</default>
+                <label>LATAM Fintech Forum Channel</label>
+            </value>
+            <value>
+                <fullName>Agency List</fullName>
+                <default>false</default>
+                <label>Agency List</label>
+            </value>
+            <value>
+                <fullName>SAP List Channel</fullName>
+                <default>false</default>
+                <label>SAP List Channel</label>
+            </value>
+            <value>
+                <fullName>BR_Febrabantech</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BR_Febrabantech</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

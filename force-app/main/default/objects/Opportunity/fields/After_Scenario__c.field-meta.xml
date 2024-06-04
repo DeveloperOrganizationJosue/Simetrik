@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>After_Scenario__c</fullName>
+    <description>Creates a &quot;stand in the future&quot; vision of how life could be better for the portfolio company after resolving the Before Scenarios.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Creates a &quot;stand in the future&quot; vision of how life could be better for the portfolio company after resolving the Before Scenarios.</inlineHelpText>
+    <label>After Scenario</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

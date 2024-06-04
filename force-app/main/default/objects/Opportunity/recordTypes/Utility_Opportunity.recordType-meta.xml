@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utility_Opportunity</fullName>
+    <active>false</active>
+    <businessProcess>Utility Opportunities</businessProcess>
+    <compactLayoutAssignment>Opportunity</compactLayoutAssignment>
+    <description>For use with opportunities for Utility customers</description>
+    <label>Utility Opportunity</label>
+    <picklistValues>
+        <picklist>ActiveCamp__ActiveCampaign_Sync_Status__c</picklist>
+        <values>
+            <fullName>Does Not Meet Sync Criteria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Successfully Synced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting For Next Sync</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Type__c</picklist>
+        <values>
+            <fullName>Partnership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money-In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money-Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Champion_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Close_not_won_cause__c</picklist>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal reasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost no decision - customer unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost to competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor timing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution did not fit customer%27s need</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competition_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Criteria_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Process_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Economic_Buyer_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GSP_LeadDash__From_Converted_Lead__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Identified_Pain_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintech %26 Lending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSP %26 Wallets</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metrics_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paper_Process_Level_of_Confidence__c</picklist>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium Confidence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Role__c</picklist>
+        <values>
+            <fullName>CoSelling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoSelling %2B Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_type__c</picklist>
+        <values>
+            <fullName>CoSelling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoSelling %2B Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prospection_List__c</picklist>
+        <values>
+            <fullName>ARG Fintech Forum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BR Crunchbase List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA BD Andres Fehrmann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHL Fintech Forum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO Asobancaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO Camara de Comercio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO Colombia Fintech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR BD Andres Fehrmann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crunchbase list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMIS list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inverstor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM Fintech Forum Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM TAM 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Crunchbase List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP List Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Parties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web%2FDemo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Purchasing_Process__c</picklist>
+        <values>
+            <fullName>Bidding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct hire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Territory__c</picklist>
+        <values>
+            <fullName>Argentina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brazil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caribbean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecuador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venezuela</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ThirdPartyName__c</picklist>
+        <values>
+            <fullName>AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camp_CO_2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crosstechpayment_BR_2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estratego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FintechAmericas_MI_2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FintechForum_CH_2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PaymentsDays_ARG_2022</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Use_Case__c</picklist>
+        <values>
+            <fullName>Account Classification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Reconciliation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank vs Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costs Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debt Control Insurance Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispersals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP vs OS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EUCs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple Payment Methods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Acquirer Reconciliation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Cost Control</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Value_Drivers__c</picklist>
+        <values>
+            <fullName>Accelerate Financial Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control Complex %26 Dynamic Financial Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enable Data-driven Insights %26 Decisions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ensure %26 Support Regulatory Compliance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>sbaa__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paper_Process__c</fullName>
+    <description>Link to Mutual Action Plans</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please add a link to your Mutual Action Plan for the deal. 
+
+The Mutual Action Plan should detail the process and timeline for getting the necessary approvals and signatures including the owner for each step in the process.</inlineHelpText>
+    <label>Paper Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

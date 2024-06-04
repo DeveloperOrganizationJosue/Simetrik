@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Validation</fullName>
+        <default>false</default>
+        <label>Validation</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Not approved</fullName>
+        <default>false</default>
+        <label>Not approved</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound_Lead</fullName>
+        <default>false</default>
+        <label>Inbound</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Follow Up</fullName>
+        <default>false</default>
+        <label>Inbound Follow Up</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospecting</fullName>
+        <default>false</default>
+        <label>Prospecting</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial Qualification</fullName>
+        <default>false</default>
+        <label>Initial Qualification</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Unqualified/Nurture</fullName>
+        <default>false</default>
+        <label>Rejected/Nurture</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Disqualified/Delete</fullName>
+        <default>false</default>
+        <label>Disqualified/Delete</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

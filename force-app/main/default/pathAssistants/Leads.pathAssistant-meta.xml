@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Leads</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The lead information was reviewed and approved by the Account Manager, allowing the lead to be converted to an opportunity&lt;/p&gt;</info>
+        <picklistValueName>Approval</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Category__c</fieldNames>
+        <fieldNames>Use_Case__c</fieldNames>
+        <fieldNames>Approval_Needed__c</fieldNames>
+        <fieldNames>Purchasing_process__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;In the related Object &amp;quot;Meetings&amp;quot; create a new meeting and log all relevant details such as type (pick &lt;/span&gt;&lt;u&gt;Discovery&lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; at this stage), dates, status, subject and attendance.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Meeting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Vendor_validation__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Account Executive approval must be obtained to determine if this Lead can be converted into an Opportunity.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Get in touch with the Account Manager to review the Lead.  &lt;/span&gt;Use the Submit for Approval option, to request the Account Manager to review and approve the lead&amp;#39;s qualification&lt;/p&gt;</info>
+        <picklistValueName>Revision</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>No_Conversion_Causes__c</fieldNames>
+        <info>&lt;p&gt;Register a no conversion causa to be able to change tehe lead to this status&lt;/p&gt;</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Fit_to_ICP__c</fieldNames>
+        <fieldNames>Purchasing_process__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Initial contact with the Lead, includes emailing, calling or contacting through LinkedIn in order to secure a successful initial contact.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Working</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

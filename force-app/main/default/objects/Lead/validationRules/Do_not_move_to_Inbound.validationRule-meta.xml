@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_move_to_Inbound</fullName>
+    <active>true</active>
+    <description>Inbound status is only for Admin</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status , &quot;Inbound_Lead&quot;),  $Profile.Name&lt;&gt;&quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>Cannot move to Inbound status, Please move to another status</errorMessage>
+</ValidationRule>

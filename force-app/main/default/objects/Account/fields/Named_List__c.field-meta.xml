@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Named_List__c</fullName>
+    <externalId>false</externalId>
+    <label>Named List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primary - ICP List</fullName>
+                <default>false</default>
+                <label>Primary - ICP List</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Installed Based</fullName>
+                <default>false</default>
+                <label>Installed Based</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Churn</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Churn</label>
+            </value>
+            <value>
+                <fullName>High Potential</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>High Potential</label>
+            </value>
+            <value>
+                <fullName>P1 LATAM Tech</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P1 LATAM Tech</label>
+            </value>
+            <value>
+                <fullName>P2 LATAM Acquirers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P2 LATAM Acquirers</label>
+            </value>
+            <value>
+                <fullName>P3 LATAM Banks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P3 LATAM Banks</label>
+            </value>
+            <value>
+                <fullName>P4 LATAM Retail E-Commerce</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P4 LATAM Retail E-Commerce</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

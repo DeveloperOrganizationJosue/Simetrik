@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Won_Opportunity_Validation</fullName>
+    <active>true</active>
+    <description>Does not allow a Primary Market AE to move an Opportunity to closed won unless the</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Won&quot;),
+    NOT(Opportunity_Validated__c),
+    NOT(
+        OR(
+            $User.Id = &quot;0053i000003Gb1n&quot;,
+            $User.Id = &quot;0053i000003GbYc&quot;
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Please ensure your booking is confirmed before moving it to Closed Won, and check in with Revenue Operations if you have any questions.</errorMessage>
+</ValidationRule>

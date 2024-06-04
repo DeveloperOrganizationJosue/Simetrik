@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The person(s) with power and influence inside the customer&apos;s organization who are actively selling on your behalf</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The person(s) with power and influence inside the customer&apos;s organization who are actively selling on your behalf</inlineHelpText>
+    <label>Champion</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Champion)</relationshipLabel>
+    <relationshipName>Opportunity1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

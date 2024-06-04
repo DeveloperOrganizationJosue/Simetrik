@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;First Meeting With Account Held and the Following is Identified:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Prospect identified as part of our Ideal Customer Profile ICP&lt;/li&gt;&lt;li&gt;Prospect has budget and intention to buy a solution like Simetrik&lt;/li&gt;&lt;li&gt;Prospect&amp;#39;s pain has been identified&lt;/li&gt;&lt;li&gt;Coach or Champion identified&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>0 - Research</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Partial Command of the Message&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Before Scenarios&lt;/li&gt;&lt;li&gt;After Scenarios&lt;/li&gt;&lt;li&gt;Negative Consequences&lt;/li&gt;&lt;li&gt;Positive Business Outcomes&lt;/li&gt;&lt;li&gt;Required Capabilities&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Partial MEDDPICC&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;Identified Pain&lt;/li&gt;&lt;li&gt;Coach or Champion identified&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>1 - Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Partial Command of the Message&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;How We Do It Better&lt;/li&gt;&lt;li&gt;Proof Points&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Partial MEDDPICC&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Economic Buyer Identified&lt;/li&gt;&lt;li&gt;Decision Process&lt;/li&gt;&lt;li&gt;Decision Criteria&lt;/li&gt;&lt;li&gt;Identified Pain&lt;/li&gt;&lt;li&gt;Champion Identified&lt;/li&gt;&lt;li&gt;Competition Identified&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Solution Design Approved by Champion&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>2 - Scoping</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Full Command of the Message&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Before Scenarios&lt;/li&gt;&lt;li&gt;After Scenarios&lt;/li&gt;&lt;li&gt;Negative Consequences&lt;/li&gt;&lt;li&gt;Positive Business Outcomes&lt;/li&gt;&lt;li&gt;Required Capabilities&lt;/li&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;How We Do It Better&lt;/li&gt;&lt;li&gt;Proof Points&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Partial MEDDPICC&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;Economic Buyer Identified&lt;/li&gt;&lt;li&gt;Decision Process&lt;/li&gt;&lt;li&gt;Decision Criteria&lt;/li&gt;&lt;li&gt;Identified Pain&lt;/li&gt;&lt;li&gt;Champion Identified&lt;/li&gt;&lt;li&gt;Competition Identified&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Mutual Action Plan Approved by Champion&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Economic Buyer Project Approval&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>3 - Consensus</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Full Command of the Message&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Before Scenarios&lt;/li&gt;&lt;li&gt;After Scenarios&lt;/li&gt;&lt;li&gt;Negative Consequences&lt;/li&gt;&lt;li&gt;Positive Business Outcomes&lt;/li&gt;&lt;li&gt;Required Capabilities&lt;/li&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;How We Do It Better&lt;/li&gt;&lt;li&gt;Proof Points&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Full MEDDPICC&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Metrics&lt;/li&gt;&lt;li&gt;Economic Buyer Identified&lt;/li&gt;&lt;li&gt;Decision Process&lt;/li&gt;&lt;li&gt;Decision Criteria&lt;/li&gt;&lt;li&gt;Paper Process&lt;/li&gt;&lt;li&gt;Identified Pain&lt;/li&gt;&lt;li&gt;Champion Identified&lt;/li&gt;&lt;li&gt;Competition Identified&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Update Mutual Action Plan Re-approved by Champion&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Economic Buyer Verbal Commitment&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>4 - Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;EXIT CRITERIA&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Contract Signed&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Celebrate and do a little dance!&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>5 - Redlining</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Opportunity</recordTypeName>
+</PathAssistant>

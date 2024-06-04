@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services__c</fullName>
+    <description>The sum of all non-subscription product values</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of all services / one-time revenue</inlineHelpText>
+    <label>Services</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Currency</type>
+</CustomField>

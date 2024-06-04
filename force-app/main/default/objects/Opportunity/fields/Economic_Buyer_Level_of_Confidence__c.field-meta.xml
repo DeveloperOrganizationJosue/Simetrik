@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Economic_Buyer_Level_of_Confidence__c</fullName>
+    <description>Notes the level of confidence the AE has in identifying the Economic Buyer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please note the level of confidence you have in your identification of the Economic Buyer</inlineHelpText>
+    <label>Economic Buyer - Level of Confidence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Level_of_Confidence</valueSetName>
+    </valueSet>
+</CustomField>

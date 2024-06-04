@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Account</entityName>
+    <fieldName>Account_Status__c</fieldName>
+    <masterLabel>Account Partner</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-family: Roboto, arial, sans-serif; font-size: 13px;&quot;&gt;Enter the information in the data section called Discovery. &lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;It is key to fill out the questions that describe the Partner to have an opptimal management; the mandatory fields for this stage are: Mark the NDA checkout when is already signed and attached here, and select the Region.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Reason_for_lost__c</fieldNames>
+        <fieldNames>Additional_Comments__c</fieldNames>
+        <picklistValueName>Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-family: Roboto, arial, sans-serif; font-size: 13px;&quot;&gt;Enter the information in the data section called Partnership Definition.&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; Attach documents related to the partnership such as the framework, business case and update the notes; the mandatory fields for this stage are: Partnership type and to confirm that the business case is approved.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Partnership Definition</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-family: Roboto, arial, sans-serif; font-size: 13px;&quot;&gt;Enter the information in the data section called Prospecting. &lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Complete as much information as possible; the mandatory fields for this stage include: Company name, Website, Estimated date of discovery meeting, and adding at least one Contact.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Prospecting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-family: Roboto, arial, sans-serif; font-size: 13px;&quot;&gt;Enter the information in the data section called Redlining. &lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;For better tracking in this redlining stage, send the security approval and partner registration request emails from the email option in the activity. Also, check the due diligence box once you have the approval.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Redlining</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Partner</recordTypeName>
+</PathAssistant>

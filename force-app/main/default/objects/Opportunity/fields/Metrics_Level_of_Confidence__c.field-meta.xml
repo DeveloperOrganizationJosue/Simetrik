@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metrics_Level_of_Confidence__c</fullName>
+    <description>Level of confidence the AE has with Metrics</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please note your level of confidence with the Metrics input you provided</inlineHelpText>
+    <label>Metrics - Level of Confidence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Level_of_Confidence</valueSetName>
+    </valueSet>
+</CustomField>

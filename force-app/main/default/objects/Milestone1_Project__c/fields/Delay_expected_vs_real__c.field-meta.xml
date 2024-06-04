@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay_expected_vs_real__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL( Real_Go_Live_date__c ) &amp;&amp; TODAY() &gt; Expected_go_live_scope_adopt_Start__c , &quot;Delayed&quot;,
+IF(Real_Go_Live_date__c &gt; Expected_go_live_scope_adopt_Start__c , &quot;Go live/ Delayed&quot;,
+IF(Real_Go_Live_date__c = Expected_go_live_scope_adopt_Start__c , &quot;Go Live/ On time&quot;, &quot;Go Live/ Ahead Off&quot;)))</formula>
+    <label>Delay expected vs. real</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

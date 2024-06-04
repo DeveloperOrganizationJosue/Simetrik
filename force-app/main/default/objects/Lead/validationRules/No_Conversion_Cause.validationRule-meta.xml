@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Conversion_Cause</fullName>
+    <active>true</active>
+    <description>Validates that a reason for non-conversion is entered to pass the lead to the Not Enabled status</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status,&quot;Unqualified&quot;),
+ISBLANK(TEXT( No_Conversion_Causes__c ))
+)</errorConditionFormula>
+    <errorDisplayField>No_Conversion_Causes__c</errorDisplayField>
+    <errorMessage>You must register a cause of non-conversion of the lead</errorMessage>
+</ValidationRule>

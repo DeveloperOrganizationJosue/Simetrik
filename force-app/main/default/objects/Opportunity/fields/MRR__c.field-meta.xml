@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MRR__c</fullName>
+    <description>The price, after discounts in the month 12 of the contract.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Exit MRR, sum of all subscription revenue for the last month of the contract</inlineHelpText>
+    <label>MRR</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

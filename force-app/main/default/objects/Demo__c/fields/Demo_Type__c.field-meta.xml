@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Demo Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demo Sales</fullName>
+                <default>false</default>
+                <label>Demo Sales</label>
+            </value>
+            <value>
+                <fullName>Demo Sales with Pre Sales</fullName>
+                <default>false</default>
+                <label>Demo Sales with Pre Sales</label>
+            </value>
+            <value>
+                <fullName>POC (Sales with Pre Sales)</fullName>
+                <default>false</default>
+                <label>POC (Sales with Pre Sales)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

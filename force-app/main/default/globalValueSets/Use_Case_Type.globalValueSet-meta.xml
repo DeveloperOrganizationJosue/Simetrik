@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Account Classification</fullName>
+        <default>false</default>
+        <label>Account Classification</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank Reconciliation</fullName>
+        <default>false</default>
+        <label>Bank Reconciliation</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank vs Accounting</fullName>
+        <default>false</default>
+        <label>Bank vs Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Control</fullName>
+        <default>false</default>
+        <label>Cost Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Debt Control Insurance Broker</fullName>
+        <default>false</default>
+        <label>Debt Control Insurance Broker</label>
+    </customValue>
+    <customValue>
+        <fullName>Dispersals</fullName>
+        <default>false</default>
+        <label>Dispersals</label>
+    </customValue>
+    <customValue>
+        <fullName>ERP vs OS</fullName>
+        <default>false</default>
+        <label>ERP vs OS</label>
+    </customValue>
+    <customValue>
+        <fullName>EUCs</fullName>
+        <default>false</default>
+        <label>EUCs</label>
+    </customValue>
+    <customValue>
+        <fullName>Multiple Payment Methods</fullName>
+        <default>false</default>
+        <label>Multiple Payment Methods</label>
+    </customValue>
+    <customValue>
+        <fullName>Network Acquirer Reconciliation</fullName>
+        <default>false</default>
+        <label>Network Acquirer Reconciliation</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Transaction Cost Control</fullName>
+        <default>false</default>
+        <label>Transaction Cost Control</label>
+    </customValue>
+    <masterLabel>Use Case Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

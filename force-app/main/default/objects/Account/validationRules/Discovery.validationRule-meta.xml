@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discovery</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+(TEXT(Account_Status__c) = &quot;Partnership Definition&quot;),
+(OR(
+NDA_signed_and_attached__c = FALSE,
+ISBLANK(Region__c)
+))
+)</errorConditionFormula>
+    <errorMessage>You must complete the fields (NDA signed and attached) and (Region)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Unsubscribed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox field indicates whether the contact has opted out of receiving emails. When the contact unsubscribes, this field is automatically marked as true.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the contact has unsubscribed from email communications through ActiveCampaign. When checked, it means the contact will no longer receive email notifications and marketing messages from ActiveCampaign.</inlineHelpText>
+    <label>Email Unsubscribed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

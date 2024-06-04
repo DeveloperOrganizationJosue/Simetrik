@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_Drivers__c</fullName>
+    <description>● These are the things that the prospect is likely proactively looking for or needing
+● These are generally revenue, cost, or risk related
+● These are top-of-mind customer topics that exist even if Simetrik doesn’t
+● They could cause a buyer to re-allocate discretionary funds
+● They support a value-based conversation (mutually exclusive, collectively
+exhaustive)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Value Drivers that are driving the deal</inlineHelpText>
+    <label>Value Drivers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accelerate Financial Close</fullName>
+                <default>false</default>
+                <label>Accelerate Financial Close</label>
+            </value>
+            <value>
+                <fullName>Control Complex &amp; Dynamic Financial Operations</fullName>
+                <default>false</default>
+                <label>Control Complex &amp; Dynamic Financial Operations</label>
+            </value>
+            <value>
+                <fullName>Enable Data-driven Insights &amp; Decisions</fullName>
+                <default>false</default>
+                <label>Enable Data-driven Insights &amp; Decisions</label>
+            </value>
+            <value>
+                <fullName>Ensure &amp; Support Regulatory Compliance</fullName>
+                <default>false</default>
+                <label>Ensure &amp; Support Regulatory Compliance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

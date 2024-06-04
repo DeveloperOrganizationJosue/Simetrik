@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Referrer</fullName>
+                <default>false</default>
+                <label>Referrer</label>
+            </value>
+            <value>
+                <fullName>Representation</fullName>
+                <default>false</default>
+                <label>Representation</label>
+            </value>
+            <value>
+                <fullName>Co-Solution</fullName>
+                <default>false</default>
+                <label>Co-Solution</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>CoSelling</fullName>
+                <default>false</default>
+                <label>CoSelling</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+                <label>Solutions</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>CoSelling + Implementation</fullName>
+                <default>false</default>
+                <label>CoSelling + Implementation</label>
+            </value>
+            <value>
+                <fullName>S</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>S</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

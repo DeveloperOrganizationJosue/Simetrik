@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Task_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+                <label>Configuration</label>
+            </value>
+            <value>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+                <label>Presentation</label>
+            </value>
+            <value>
+                <fullName>In progress</fullName>
+                <default>false</default>
+                <label>In progress</label>
+            </value>
+            <value>
+                <fullName>Stuck</fullName>
+                <default>false</default>
+                <label>Stuck</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>Discarded</fullName>
+                <default>false</default>
+                <label>Discarded</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Demo Stock</controllingFieldValue>
+            <controllingFieldValue>Demo Personalized</controllingFieldValue>
+            <controllingFieldValue>Accompaniment</controllingFieldValue>
+            <valueName>In progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo Stock</controllingFieldValue>
+            <controllingFieldValue>Demo Personalized</controllingFieldValue>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <valueName>Stuck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo Stock</controllingFieldValue>
+            <controllingFieldValue>Demo Personalized</controllingFieldValue>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <controllingFieldValue>Accompaniment</controllingFieldValue>
+            <valueName>Done</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo Stock</controllingFieldValue>
+            <controllingFieldValue>Demo Personalized</controllingFieldValue>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <valueName>Discarded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <valueName>Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <valueName>Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POC</controllingFieldValue>
+            <valueName>Presentation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

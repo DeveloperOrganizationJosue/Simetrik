@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DecisionProcess__c</fullName>
+    <description>The process by which the customer will evaluate, select, and purchase a solution</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please input the process by which the customer will evaluate, select, and purchase a solution</inlineHelpText>
+    <label>Decision Process</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

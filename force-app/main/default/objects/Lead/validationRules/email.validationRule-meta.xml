@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>email</fullName>
+    <active>true</active>
+    <description>validates that the email has been entered to be able to change the stage of the lead</description>
+    <errorConditionFormula>AND( NOT OR( ISPICKVAL( Status , &quot;Working&quot;), 
+             ISPICKVAL( Status , &quot;Assigned&quot;),
+             ISPICKVAL( Status , &quot;Massive&quot;),
+             ISPICKVAL( Status , &quot;Meeting&quot;),
+             ISPICKVAL( Status , &quot;Registered&quot;),
+             ISPICKVAL( Status , &quot;Validation&quot;),
+             ISPICKVAL( Status , &quot;Not approved&quot;),
+             ISPICKVAL( Status , &quot;Approved&quot;)) ,
+     ISBLANK( Email ) )</errorConditionFormula>
+    <errorMessage>It is necessary to enter the email to be able to change the lead´s stage</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Allows the system and users to confirm if whether the contact is suitable for email campaigns</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allows the system and users to confirm if whether the contact is suitable for email campaigns</inlineHelpText>
+    <label>Email campaigns</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

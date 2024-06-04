@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Account_No_CSM</fullName>
+    <active>true</active>
+    <description>Can&apos;t save a Customer Account without a CSM noted in the CSM field</description>
+    <errorConditionFormula>AND( ISPICKVAL( Type , &quot;Customer&quot;) ,
+     ISBLANK(Customer_Success_Manager__c )
+)</errorConditionFormula>
+    <errorMessage>Please add a CSM to save an Account with a &quot;Customer&quot; type</errorMessage>
+</ValidationRule>

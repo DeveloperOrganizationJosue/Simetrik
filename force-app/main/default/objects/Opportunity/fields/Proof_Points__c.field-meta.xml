@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proof_Points__c</fullName>
+    <description>Verifiable evidence that Simetrik can satisfy the Decision Criteria and deliver on the agreed Positive Business Outcomes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Verifiable evidence that Simetrik can satisfy the Decision Criteria and deliver on the agreed Positive Business Outcomes</inlineHelpText>
+    <label>Proof Points</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

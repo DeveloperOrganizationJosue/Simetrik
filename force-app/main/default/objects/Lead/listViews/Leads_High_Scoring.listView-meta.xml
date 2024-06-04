@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_High_Scoring</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Account__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>pi__last_activity__c</columns>
+    <columns>pi__score__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>pi__score__c</field>
+        <operation>greaterThan</operation>
+        <value>6</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL_OPT_OUT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>What_can_view__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Leads - High Scoring</label>
+</ListView>

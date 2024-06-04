@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presales</fullName>
+    <active>true</active>
+    <label>Presales</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money-Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gerencia__c</picklist>
+        <values>
+            <fullName>Medios de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercados capitales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nequi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operación Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recaudos y Pagos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios Contables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios de Recaudo y Pago</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Global_status_use_case__c</picklist>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stuck</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Release__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sprint__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Customer approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery %2FStabilization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Understanding</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Use_Case_Type__c</picklist>
+        <values>
+            <fullName>Account Classification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Reconciliation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank vs Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costs Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debt Control Insurance Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispersals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP vs OS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EUCs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple Payment Methods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Acquirer Reconciliation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Cost Control</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

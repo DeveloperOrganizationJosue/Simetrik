@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Date__c</fullName>
+    <description>Date of the first invoice issued to the customer related to this opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date of the first invoice issued to the customer related to this opportunity. Remember that invoices are issued on the 25th of each month.</inlineHelpText>
+    <label>Invoice Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

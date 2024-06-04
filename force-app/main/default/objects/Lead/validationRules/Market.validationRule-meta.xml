@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market</fullName>
+    <active>true</active>
+    <description>validates that to convert a lead of the partner type the market to which it belongs has been registered</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status,&quot;Approved&quot;),
+ISBLANK(TEXT(  Market__c ))
+)</errorConditionFormula>
+    <errorMessage>You must register the market to which the lead belongs in order to approve it</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompellingReasonToAct__c</fullName>
+    <description>A compelling reason to act (CRTA) is an occurrence where, if the customer doesn’t make a decision, significant consequences will follow. If we can identify a compelling reason to act, we can also present the implications of not making a decision by that date. The CRTA is a potentially very powerful motivator for buyers to move forward with a purchase decision, and the seller who best understands and articulates the CRTA is usually the one who wins.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A compelling reason to act (CRTA) is an occurrence where, if the customer doesn’t make a decision, significant consequences will follow.</inlineHelpText>
+    <label>Compelling Reason to Act</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

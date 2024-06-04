@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_0_Entrance_Date__c</fullName>
+    <description>Includes stamped stage 0 entrance date</description>
+    <externalId>false</externalId>
+    <label>Stage 0 - Entrance Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

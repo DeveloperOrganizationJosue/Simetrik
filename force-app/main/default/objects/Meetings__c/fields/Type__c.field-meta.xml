@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Deepening</fullName>
+                <default>false</default>
+                <label>Deepening</label>
+            </value>
+            <value>
+                <fullName>Evaluation</fullName>
+                <default>false</default>
+                <label>Evaluation</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Success Plan</fullName>
+                <default>false</default>
+                <label>Success Plan</label>
+            </value>
+            <value>
+                <fullName>Shadowing</fullName>
+                <default>false</default>
+                <label>Shadowing</label>
+            </value>
+            <value>
+                <fullName>Kickoff</fullName>
+                <default>false</default>
+                <label>Kickoff</label>
+            </value>
+            <value>
+                <fullName>Configuration review</fullName>
+                <default>false</default>
+                <label>Configuration review</label>
+            </value>
+            <value>
+                <fullName>QBR/EBR</fullName>
+                <default>false</default>
+                <label>QBR/EBR</label>
+            </value>
+            <value>
+                <fullName>Check Point</fullName>
+                <default>false</default>
+                <label>Check Point</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>On Boarding (Customer Succsess)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Boarding (Customer Succsess)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

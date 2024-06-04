@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Conversion_Only</fullName>
+    <active>true</active>
+    <description>Ensures that a lead is converted using the custom quick action.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Simetrik&quot;,
+ISPICKVAL( Status , &quot;Approved&quot;), 
+NOT( AllowConversion__c ) )</errorConditionFormula>
+    <errorMessage>Please use the Convert button located in the page header.</errorMessage>
+</ValidationRule>

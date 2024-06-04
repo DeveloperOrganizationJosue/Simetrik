@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Conversion_Causes__c</fullName>
+    <externalId>false</externalId>
+    <label>No Conversion Causes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account data incomplete</fullName>
+                <default>false</default>
+                <label>Account data incomplete</label>
+            </value>
+            <value>
+                <fullName>Not a decision maker</fullName>
+                <default>false</default>
+                <label>Not a decision maker</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>No use case hypothesis identified</fullName>
+                <default>false</default>
+                <label>No use case hypothesis identified</label>
+            </value>
+            <value>
+                <fullName>Bying process unknown</fullName>
+                <default>false</default>
+                <label>Buying process unknown</label>
+            </value>
+            <value>
+                <fullName>Bying time &gt; 6 months</fullName>
+                <default>false</default>
+                <label>Buying time &gt; 6 months</label>
+            </value>
+            <value>
+                <fullName>No ICP</fullName>
+                <default>false</default>
+                <label>No ICP</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

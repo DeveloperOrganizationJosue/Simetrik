@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Case_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Use Case Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multiple Payment Methods</fullName>
+                <default>false</default>
+                <label>Multiple Payment Methods</label>
+            </value>
+            <value>
+                <fullName>Network Acquirer Reconciliation</fullName>
+                <default>false</default>
+                <label>Network Acquirer Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Transaction Cost Control</fullName>
+                <default>false</default>
+                <label>Transaction Cost Control</label>
+            </value>
+            <value>
+                <fullName>Debt Control Insurance Broker</fullName>
+                <default>false</default>
+                <label>Debt Control Insurance Broker</label>
+            </value>
+            <value>
+                <fullName>Bank Reconciliation</fullName>
+                <default>false</default>
+                <label>Bank Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>Dispersals</fullName>
+                <default>false</default>
+                <label>Dispersals</label>
+            </value>
+            <value>
+                <fullName>Costs Control</fullName>
+                <default>false</default>
+                <label>Costs Control</label>
+            </value>
+            <value>
+                <fullName>EUCs</fullName>
+                <default>false</default>
+                <label>EUCs</label>
+            </value>
+            <value>
+                <fullName>Bank vs Accounting</fullName>
+                <default>false</default>
+                <label>Bank vs Accounting</label>
+            </value>
+            <value>
+                <fullName>Account Classification</fullName>
+                <default>false</default>
+                <label>Account Classification</label>
+            </value>
+            <value>
+                <fullName>ERP vs OS</fullName>
+                <default>false</default>
+                <label>ERP vs OS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Accounting Translator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accounting Translator</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>Transaction Cost Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-Out</controllingFieldValue>
+            <valueName>Debt Control Insurance Broker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money-Out</controllingFieldValue>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Dispersals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Network Acquirer Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Bank Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>EUCs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Bank vs Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>Account Classification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money In</controllingFieldValue>
+            <valueName>ERP vs OS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

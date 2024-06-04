@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Decision maker</fullName>
+                <default>false</default>
+                <label>Decision maker</label>
+            </value>
+            <value>
+                <fullName>Final user</fullName>
+                <default>false</default>
+                <label>Final user</label>
+            </value>
+            <value>
+                <fullName>Financial decision maker</fullName>
+                <default>false</default>
+                <label>Financial decision maker</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Oppositor</fullName>
+                <default>false</default>
+                <label>Oppositor</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

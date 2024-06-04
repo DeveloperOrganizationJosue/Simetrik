@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Functional Decision Maker</fullName>
+                <default>false</default>
+                <label>Functional Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Technical Decision Maker</fullName>
+                <default>false</default>
+                <label>Technical Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Economic Decision Maker</fullName>
+                <default>false</default>
+                <label>Economic Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Evaluator</fullName>
+                <default>false</default>
+                <label>Evaluator</label>
+            </value>
+            <value>
+                <fullName>Executive Sponsor</fullName>
+                <default>false</default>
+                <label>Executive Sponsor</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Business User</fullName>
+                <default>false</default>
+                <label>Business User</label>
+            </value>
+            <value>
+                <fullName>Builder User</fullName>
+                <default>false</default>
+                <label>Builder User</label>
+            </value>
+            <value>
+                <fullName>Operator User</fullName>
+                <default>false</default>
+                <label>Operator User</label>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Simetrik User</fullName>
+                <default>false</default>
+                <label>Simetrik User</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

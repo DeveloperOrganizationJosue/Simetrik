@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Ticket_Opportunities</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Industry__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Territory__c</columns>
+    <columns>Use_Case__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterOrEqual</operation>
+        <value>10000</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>What_can_view_Partner__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>High Ticket Opportunities</label>
+</ListView>

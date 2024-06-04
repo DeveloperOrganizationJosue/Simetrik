@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Case_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Use Case Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Entendimiento</fullName>
+                <default>false</default>
+                <label>Entendimiento</label>
+            </value>
+            <value>
+                <fullName>Implementación</fullName>
+                <default>false</default>
+                <label>Implementación</label>
+            </value>
+            <value>
+                <fullName>Integraciones</fullName>
+                <default>false</default>
+                <label>Integraciones</label>
+            </value>
+            <value>
+                <fullName>Entrega/ estabilización</fullName>
+                <default>false</default>
+                <label>Entrega/ estabilización</label>
+            </value>
+            <value>
+                <fullName>Aprobado cliente</fullName>
+                <default>false</default>
+                <label>Aprobado cliente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

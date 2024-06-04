@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_for_Simetrik_Invoices__c</fullName>
+    <description>To which email should the invoices issued by Simetrik be sent? Name of the person responsible for receiving invoices</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To which email should the invoices issued by Simetrik be sent? Name of the person responsible for receiving invoices</inlineHelpText>
+    <label>Email for Simetrik Invoices</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

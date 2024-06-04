@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Before_Scenario__c</fullName>
+    <description>Paints a picture of an undesirable state of being and elaborates on the pain point, goal, or need that the Value Drive addresses.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Paints a picture of an undesirable state of being and elaborates on the pain point, goal, or need that the Value Drive addresses.</inlineHelpText>
+    <label>Before Scenario</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreSales_Request__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>AEs check the box when they want to request help from the PreSales team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>AEs check the box when they want to request help from the PreSales team, the box can only be checked once</inlineHelpText>
+    <label>PreSales Request</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

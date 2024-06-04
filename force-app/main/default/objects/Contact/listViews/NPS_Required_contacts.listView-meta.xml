@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_Required_contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>NPS_required__c</columns>
+    <columns>Contact_Role__c</columns>
+    <columns>Relationship__c</columns>
+    <columns>Perception__c</columns>
+    <columns>Interaction__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NPS_required__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>NPS Required contacts</label>
+</ListView>
